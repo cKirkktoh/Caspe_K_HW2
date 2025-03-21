@@ -1,4 +1,4 @@
-import { RecipeBook } from './recipebook.js';
+import { RecipeBook } from './modules/recipebook.js';
 
 const recipeBook = new RecipeBook();
 
