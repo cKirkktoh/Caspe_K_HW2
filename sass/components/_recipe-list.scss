@@ -1,0 +1,38 @@
+#recipeList {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+  }
+  
+  #recipes {
+    list-style: none;
+    padding: 0;
+  
+    li {
+      background: #fff;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      border: 1px solid #eee;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+  
+      h3 {
+        margin: 0 0 0.5rem;
+        font-size: 1.5rem;
+        color: #2c3e50;
+      }
+  
+      p {
+        margin: 0.5rem 0;
+        font-size: 1rem;
+        color: #555;
+      }
+    }
+  }
