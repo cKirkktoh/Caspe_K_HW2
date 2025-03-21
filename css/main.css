@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #2c3e50;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Recipe Form */
+  #recipeForm {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    backdrop-filter: blur(10px);
+  }
+  
+  #recipeForm input[type="text"],
+  #recipeForm textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    transition: border-color 0.3s ease;
+  }
+  
+  #recipeForm input[type="text"]:focus,
+  #recipeForm textarea:focus {
+    border-color: #ff6f61;
+    outline: none;
+  }
+  
+  #recipeForm textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  #recipeForm button {
+    background: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #recipeForm button:hover {
+    background: #ff3b2f;
+  }
+  
+  /* Recipe List */
+  #recipeList {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+  }
+  
+  #recipes {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #recipes li {
+    background: #fff;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #recipes li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  #recipes li h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  #recipes li p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    #recipeForm,
+    #recipeList {
+      padding: 1rem;
+    }
+  
+    #recipeForm input[type="text"],
+    #recipeForm textarea {
+      padding: 0.6rem;
+      font-size: 0.9rem;
+    }
+  
+    #recipeForm button {
+      padding: 0.6rem 1rem;
+      font-size: 0.9rem;
+    }
+  }
