@@ -52,7 +52,8 @@ Recipe Book is a modern, user-friendly web application that allows you to add, v
 - `js/recipebook.js`: JavaScript file containing the RecipeBook class.
 
 ## Screenshots
-
+![Main Page](images/scr_1.png)
+![Recipe](images/scr_2.png)
 
 
 ## Credits
