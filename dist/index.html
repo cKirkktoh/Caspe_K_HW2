@@ -9,17 +9,33 @@
   <script defer type="module" src="js/main.js"></script>
 </head>
 <body>
-  <div class="container">
+  <!-- Loader -->
+  <div id="loader">
+    <img src="images/food-loader.gif" alt="Loading...">
+    <p>Loading delicious recipes...</p>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container" id="content" style="display: none;">
     <h1>Recipe Book</h1>
     
+    <!-- Recipe Form -->
     <div id="recipeForm">
       <h2>Add a Recipe</h2>
       <input type="text" id="recipeName" placeholder="Recipe Name">
       <textarea id="recipeIngredients" placeholder="Ingredients"></textarea>
       <textarea id="recipeInstructions" placeholder="Instructions"></textarea>
+      <select id="recipeCategory">
+        <option value="Breakfast">Breakfast</option>
+        <option value="Lunch">Lunch</option>
+        <option value="Dinner">Dinner</option>
+        <option value="Dessert">Dessert</option>
+      </select>
+      <input type="number" id="recipeRating" placeholder="Rating (1-5)" min="1" max="5">
       <button onclick="addRecipe()">Add Recipe</button>
     </div>
 
+    <!-- Recipe List -->
     <div id="recipeList">
       <h2>Recipes</h2>
       <ul id="recipes"></ul>
