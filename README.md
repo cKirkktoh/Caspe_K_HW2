@@ -53,8 +53,7 @@ Recipe Book is a modern, user-friendly web application that allows you to add, v
 
 ## Screenshots
 
-![Screenshot 1](images/scr_1.png)
-![Screenshot 2](images/scr_2.png)
+
 
 ## Credits
 
