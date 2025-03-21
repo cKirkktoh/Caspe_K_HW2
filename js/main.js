@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
   setTimeout(() => {
     document.getElementById('loader').style.display = 'none';
     document.getElementById('content').style.display = 'block';
-  }, 3000); // 3 seconds delay
+  }, 3000); 
 });
 
 // Add Recipe
@@ -28,13 +28,11 @@ function addRecipe() {
   // Add the recipe
   recipeBook.addRecipe(name, ingredients, instructions, category, rating);
 
-  // Clear the input fields
   document.querySelector('#recipeName').value = '';
   document.querySelector('#recipeIngredients').value = '';
   document.querySelector('#recipeInstructions').value = '';
   document.querySelector('#recipeRating').value = '';
 
-  // Render the updated list of recipes
   renderRecipes();
 }
 
