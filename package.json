@@ -1,7 +1,7 @@
 {
   "name": "caspe_k_hw2",
   "version": "1.0.0",
-  "description": "## Features",
+  "description": "Welcome to Recipe Book, a delightful and intuitive web application designed to help you manage, organize, and store your favorite recipes with ease! Whether you're a seasoned chef or a home cook, Recipe Book is your go-to tool for keeping track of your culinary creations.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
